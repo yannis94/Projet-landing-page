@@ -11,6 +11,8 @@ body
 
 form
 {
+  width: 500px;
+  margin-left: 100px;
   background-color: #28293C;
   border-style: solid;
 }
