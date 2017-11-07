@@ -1,0 +1,16 @@
+body
+{
+  background-color: #C41D32;
+}
+
+#titre
+{
+  font-size: 50px;
+  font-family: helvetica;
+}
+
+form
+{
+  background-color: #28293C;
+  border-style: solid;
+}
