@@ -4,46 +4,110 @@
 
   <head>
 
-    <meta charset="utf-8">
+    <meta charset="utf-8" name='viewport' content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="landingpage.css">
-    <title>LSEDOS</title>
+    <title>SDS</title>
 
   </head>
 
-  <body>
-    <h1 id="titre">LE SPORT EN DIRECT OU STREAMING</h1>
+  <body id="parent">
 
-    <p>un catalogue complet, vivez les plus beaux moments en direct, ou revivez les en streaming!</p>
-    <p>suiver votre sport préféré depuis votre smartphone, tablette ou pc sous Android et IOS</p>
-    <p>accès à des sports non répondu en France comme :</p>
+    <div id="img">
+      <img src="Logo-transparent.png" id="logo">
+    </div>
 
-      <ul>
-        <li class="liste1">basket</li>
-        <li class="liste1">UFC</li>
-        <li class="liste1">e-sport</li>
-        <li class="liste1">base ball</li>
-        <li class="liste1">football américain</li>
-      </ul>
+    <h1 id="titre">LE <span class="maj">S</span>PORT EN <span class="maj">D</span>IRECT OU EN <span class="maj">S</span>TREAMING</h1>
 
-    <form id="formulaire" method="post">
+    <div class="explication">
 
-      <div class="texte">
-        <p>Regarder vos sport favoris en direct ou en streaming</p>
-      </div>
-      <div class="texte">
-        <p>recevez notre brochure par mail</p>
-      </div>
-      <div id="mail">
-        <label for="mail">votre e mail</label>
-        <input type="text" />
-      </div>
-      <div id="boutton">
-        <button type="submit">envoyer</button>
+      <div class="description">
+
+        <p class="txt_descr">Un catalogue complet, vivez les plus beaux moments en direct, ou revivez les en streaming!</p>
+        <p class="txt_descr">Suiver votre sport préféré depuis votre smartphone, tablette ou pc sous Android et IOS</p>
+        <p class="txt_descr">Accès à des sports peu répondu en France comme :</p>
+
+
+
+          <p class="liste1">NBA</p>
+          <p class="liste1">UFC</p>
+          <p class="liste1">E-sport</p>
+          <p class="liste1">Base ball</p>
+          <p class="liste1">Football américain</p>
+          <p class="liste1">Boxe</p>
+
       </div>
 
-    </form>
 
-  </body>
+
+      <div class="catalogue">
+        <p id="ctlg">Retrouvez aussi tous les sports Européen comme :</p>
+
+
+          <p class="txt_ctlg">Football</p>
+          <p class="txt_ctlg">Rugby</p>
+          <p class="txt_ctlg">Natation</p>
+          <p class="txt_ctlg">Tennis</p>
+          <p class="txt_ctlg">Handball</p>
+
+      </div>
+
+      <div class="forfait">
+        <p id="frft">Découvrez des forfaits spéciaux pour :</p>
+
+
+          <li class="txt_frft">Coupe du monde de foot</li>
+          <li class="txt_frft">Coupe du monde de rugby</li>
+          <li class="txt_frft">Jeux Olympiques</li>
+          <li class="txt_frft">Super Bowl</li>
+          <li class="txt_frft">Play-off</li>
+
+      </div>
+    </div>
+
+    <div id="formulaire">
+            <form method="post">
+
+              <div class="texte">
+                <p id="rgdr">Regarder vos sport favoris en direct ou en streaming!</p>
+              </div>
+
+              <div class="texte">
+                <p id="brch">Recevez notre brochure par mail dès maintenant</p>
+              </div>
+
+              <div id="mail">
+                <input type="text" placeholder="votre email" id="input" />
+
+                <button type="submit">envoyer</button>
+              </div>
+    </div>
+
+            </form>
+
+          <div id="titrephoto">
+            <h2>Vous ne pourrez plus vous en passer</h2>
+          </div>
+
+    <div class="photos">
+
+      <div class="UFC">
+        <img src="https://smcpullzone-xwesmyzaziiezeav.netdna-ssl.com/wp-content/uploads/2016/10/UFC.jpg" id="ufc" class="UFC">
+        <p class="UFC">Nate Diaz après sa victoire contre Mcgregor</p>
+      </div>
+
+      <div class="BASKET">
+        <img src="https://medias.lequipe.fr/img-photo-jpg/ballon/1500000000658906/0:4,2048:1368-624-416-75/54094.jpg" id="basket" class="BASKET">
+        <p class="BASKET">Regarder tous les matchs NBA</p>
+      </div>
+
+     <div class="FOOTUS">
+       <img src="http://cdn1-europe1.new2.ladmedia.fr/var/europe1/storage/images/europe1/sport/pourquoi-on-aime-le-football-americain-354682/7431142-1-fre-FR/Pourquoi-on-aime-le-football-americain.jpg" id="footUS" class="FOOTUS">
+       <p class="FOOTUS">Doucouvrez le monde de la NFL</p>
+     </div>
+
+    </div>
+
+
 
 
 </html>

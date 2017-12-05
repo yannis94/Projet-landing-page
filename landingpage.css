@@ -5,14 +5,223 @@ body
 
 #titre
 {
-  font-size: 50px;
+  font-size: 20px;
   font-family: helvetica;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
 }
 
 form
 {
-  width: 500px;
-  margin-left: 100px;
+  width: 750px;
+  height: 250px;
   background-color: #28293C;
   border-style: solid;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.texte
+{
+
+  color: #C2C7C8;
+
+}
+
+
+#rgdr
+{
+font-size: 30px;
+}
+
+#brch
+{
+font-size: 30px;
+}
+
+.description
+{
+  width: 500px;
+  font-size: 18px;
+  color: white;
+  border-style: solid;
+  border-color: #28293C;
+  background-color: #28293C;
+  margin: 10px;
+}
+
+.liste1
+{
+display: flex;
+justify-content: center;
+}
+
+.maj
+{
+  color: #1F01B9;
+}
+
+.txt_descr
+{
+display: flex;
+justify-content: center;
+}
+
+.catalogue
+{
+  width: 390px;
+  border-style: solid;
+  border-color: #28293C;
+  background-color: #28293C;
+  font-size: 18px;
+  color: white;
+  margin: 10px;
+}
+
+#ctlg
+{
+display: flex;
+justify-content: center;
+}
+
+.txt_ctlg
+{
+display: flex;
+justify-content: center;
+}
+
+.forfait
+{
+  width: 300px;
+  border-style: solid;
+  border-color: #28293C;
+  background-color: #28293C;
+  margin: 10px;
+
+}
+
+#frft
+{
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.txt_frft
+{
+  color: white;
+  font-size: 18px;
+  width: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo
+{
+  width: 250px;
+  height: 100px;
+}
+
+#img
+{
+ display: flex;
+ justify-content: center;
+}
+
+.photos
+{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 150px;
+}
+
+#ufc
+{
+ width: 80%;
+ margin: 10px;
+}
+
+#basket
+{
+  width: 100%;
+  margin: 10px;
+}
+
+#footUS
+{
+  width: 80%;
+  margin: 10px;
+}
+
+.explication
+{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+
+}
+
+#description
+{
+  display: flex;
+  justify-content: center;
+}
+
+#formulaire
+{
+display: flex;
+justify-content: center;
+margin-top: 50px;
+margin-bottom: 70px;
+}
+
+#titrephoto
+{
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-family: helvetica;
+}
+
+.UFC
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.BASKET
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.FOOTUS
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+@media screen and (max_width: 750px)
+{
+  .explication{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
