@@ -3,13 +3,30 @@ body
   background-color: #C41D32;
 }
 
-#titre
+h1
 {
-  font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.titre
+{
+  width: 30%;
+  font-size: 25px;
   font-family: helvetica;
+  color: #28293C;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin-bottom: 60px;
+  transition: 1s;
+}
+.titre:hover  {
+  width: 50%;
+  font-size: 40px;
+}
+
+.initiale{
+  color: white;
 }
 
 form
@@ -24,6 +41,16 @@ form
   align-items: center;
   justify-content: center;
 
+}
+
+#envoyer
+{
+  border-radius: 5px;
+}
+#envoyer:hover
+{
+  background-color: red;
+  border-color: red;
 }
 
 .texte
@@ -53,6 +80,14 @@ font-size: 30px;
   border-color: #28293C;
   background-color: #28293C;
   margin: 10px;
+  transition: 0.5s;
+}
+
+.description:hover
+{
+  border-radius: 11px;
+  border-color: black;
+  transform: scale(1.2);
 }
 
 .liste1
@@ -81,6 +116,14 @@ justify-content: center;
   font-size: 18px;
   color: white;
   margin: 10px;
+  transition: 0.5s;
+}
+
+.catalogue:hover
+{
+  border-radius: 11px;
+  border-color: black;
+  transform: scale(1.2);
 }
 
 #ctlg
@@ -93,6 +136,7 @@ justify-content: center;
 {
 display: flex;
 justify-content: center;
+color: white;
 }
 
 .forfait
@@ -102,7 +146,15 @@ justify-content: center;
   border-color: #28293C;
   background-color: #28293C;
   margin: 10px;
+  transition: 0.5s;
 
+}
+
+.forfait:hover
+{
+  border-radius: 11px;
+  border-color: black;
+  transform: scale(1.2);
 }
 
 #frft
@@ -125,8 +177,12 @@ justify-content: center;
 
 #logo
 {
-  width: 250px;
-  height: 100px;
+  width: 20%;
+  height: 20%;
+  transition: 1.5s;
+}
+#logo:hover{
+  transform: rotate(0.5turn);
 }
 
 #img
@@ -217,11 +273,34 @@ margin-bottom: 70px;
   font-family: sans-serif;
 }
 
-@media screen and (max_width: 750px)
+.bas{
+size: 100%;
+background-color: #C41D32;
+
+transition: 1.5s;
+}
+.bas:hover{
+  background-color: #28293C;
+  color: white;
+}
+
+@media screen and (max-width: 750px)
 {
   .explication{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
   }
+ form{
+   height: 500px;
+ }
+
+ #mail{
+   height: 120px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+ }
+
 }
